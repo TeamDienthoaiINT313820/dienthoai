@@ -33,11 +33,11 @@ $mahd=$_GET['mahd'];
                                         </tr>
                                         <tr>
                                           <td>Điện thoại </td>
-                                          <td>: 0393510439</td>
+                                          <td>: 0919842597</td>
                                         </tr>
                                         <tr>
                                           <td>Email</td>
-                                          <td>:minhhung290701@gmail.com</td>
+                                          <td>: tamtrinh7501@gmail.com</td>
                                         </tr>
                                       </tbody>
                                   </table></td>
@@ -88,7 +88,7 @@ $row1=mysqli_fetch_array($rows1);
 
                             <tr>
                               <td >&nbsp;</td>
-                              <td >Ngày giao hàng:</td>
+                              <td >Ngày đặt hàng:</td>
                                     
 			
                               <td ><?php echo date("d/m/Y");?></td>
@@ -102,7 +102,7 @@ $row1=mysqli_fetch_array($rows1);
 								$row2=mysqli_fetch_array($rows2);
 								
 								?>
-                              <td ><?php if($row2['phuongthucthanhtoan']==1) echo "Qua bưu điện"; else if($row2['phuongthucthanhtoan']==2) echo "Qua thẻ ATM"; else echo"Thanh toán trực tiếp"; ?></td>
+                              <td ><?php if($row2['phuongthucthanhtoan']==1) echo "Qua bưu điện"; else if($row2['phuongthucthanhtoan']==2) echo "Qua thẻ ATM"; else echo"Thanh toán trực tiếp COD"; ?></td>
                             </tr>
                     </table>
         <br />
@@ -151,7 +151,7 @@ $row1=mysqli_fetch_array($rows1);
                               <td><div align="center"><strong>Khách hàng</strong></div></td>
                             </tr>
                             <tr>
-                              <td height="23"><div align="center">(Ký tên +Đóng dấu Công ty)</div></td>
+                              <td height="23"><div align="center">(Ký tên, Đóng dấu Công ty)</div></td>
                               <td>&nbsp;</td>
                               <td>&nbsp;</td>
                             </tr>

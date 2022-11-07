@@ -31,7 +31,7 @@ if(isset($_POST['btnthem']))
 	  $d = $_POST['dequi'];
       $sql="UPDATE danhmuc SET tendm='".$m."', dequi='".$d."' WHERE madm='".$madm."'"; //chưa khai báo $madm mà đã dùng.
       mysqli_query($connect,$sql);
-	  mysqli_error();
+	  mysqli_error($connect);
       header("location:admin.php?admin=hienthidm");
       //exit();
    }
@@ -64,7 +64,7 @@ $row=mysqli_fetch_array($query); // chưa có mysql_query nhé. ở trên có ki
              <?php 
             $sql1="select * from danhmuc where dequi=0";
             $rows1=mysqli_query($connect,$sql1);
-            while($row1=mysql_fetch_array($rows1))
+            while($row1=mysqli_fetch_array($rows1))
             {
             ?>
 				<option value="<?php echo $row1['madm'] ?>" <?php if($row1['madm']==$row['dequi']) echo 'selected="selected"'?> ><?php echo $row1['tendm']?></option>

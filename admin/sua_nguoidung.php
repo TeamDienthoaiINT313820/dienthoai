@@ -23,10 +23,10 @@
             	<td>Điện thoại</td><td><input type="text" name="dienthoai"  value="<?php echo $row['dienthoai'] ?>"/></td>
             </tr>
 			<tr>
-            	<td>Quền</td><td>
+            	<td>Quyền</td><td>
 					<select name="phanquyen">
-								<option value="0" > 0 </option>
-								<option value="1" selected="selected"> 1 </option>
+								<option value="0" > Admin </option>
+								<option value="1" selected="selected"> Người dùng </option>
 					</select>
 				</td>
             </tr>

@@ -92,7 +92,7 @@
                     <!-- ============================================================== -->
                     <ul class="navbar-nav my-lg-0">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./assets/images/users/1.jpg" alt="user" class="profile-pic m-r-5" /> Hi Admin <?= $_SESSION['username']?></u></b></font><a href="logout.php"> | Thoát</a></p>
+                            <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./assets/images/users/1.jpg" alt="user" class="profile-pic m-r-5" /> Chào Quản trị viên <?= $_SESSION['username']?></u></b></font><a href="logout.php"> | Thoát</a></p>
                         </a>
                         </li>
                     </ul>
