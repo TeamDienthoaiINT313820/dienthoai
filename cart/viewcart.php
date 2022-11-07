@@ -47,7 +47,7 @@ while($row=mysqli_fetch_array($rows))
         <td><input type="text" name="sl" value="<?php echo $_SESSION['cart'][$row['idsp']] ?>" style="width:30px;"/></td>
         <td><?php echo number_format(($row['gia']*((100-$row['khuyenmai1'])/100))*$_SESSION['cart'][$row['idsp']],0,",",".") ?></td>
         <td><p class="xoa"><input type="submit" name="huy" value="Xóa"/>
-        <input type="submit" class="submit" value="cập nhập" name="submit"/>
+        <input type="submit" class="submit" value="Cập nhật" name="submit"/>
         </form>
         </p></td>
 </tr>

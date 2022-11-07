@@ -46,24 +46,13 @@
 			<div class="tieudetinhnang">
 				<ul class="tabs">
 				<li><a href="#tab1">Tính năng</a></li>
-				<li><a href="#tab2">Bình luận </a></li>
 				</ul>
 			</div>
 			
 			<div id="tab1">
 				<?php echo $row['chitiet'] ?>
 			</div>
-			<div id="tab2">
-				<div id="fb-root"></div>
-				<script>(function(d, s, id) {
-				  var js, fjs = d.getElementsByTagName(s)[0];
-				  if (d.getElementById(id)) return;
-				  js = d.createElement(s); js.id = id;
-				  js.src = "//connect.facebook.net/vi_VN/all.js#xfbml=1";
-				  fjs.parentNode.insertBefore(js, fjs);
-				}(document, 'script', 'facebook-jssdk'));</script>
-				<div class="fb-comments" data-href="https://www.facebook.com/pages/%C4%90i%E1%BB%87n-tho%E1%BA%A1i-Th%C3%A0nh-%C4%90%E1%BA%A1t/609767402431528?ref=hl" data-width="560" data-numposts="10" data-colorscheme="light"></div>
-			</div>
+			
 		</div>
 	</div>
 </div>
