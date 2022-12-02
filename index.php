@@ -184,13 +184,13 @@ e.preventDefault();
 							<div class="sildeShow">
 								<ul id="random">
 									<li> 
-										<a href="#"><img src="img/samsung.png" alt="Sam Sung" title="SamSung" /></a>
+										<a href="#"><img src="img/samsung.png" alt="Samsung" title="Samsung" /></a>
 									</li>
 									<li> 
-										<a href="#"><img src="img/sony.png" alt="Sony" title="Sony" /></a>
+										<a href="#"><img src="img/apple.png" alt="Apple" title="Apple" /></a>
 									</li>
 									<li> 
-										<a href="#"><img src="img/lg.png" alt="lg" title="LG" /></a>
+										<a href="#"><img src="img/Oppo.png" alt="Oppo" title="Oppo" /></a>
 									</li>
 									<li> 
 										<a href="#"><img src="img/nokia.png" alt="nokia" title="NOKIA" /></a>
@@ -228,7 +228,7 @@ e.preventDefault();
 						
 						<li>Địa chỉ: Xóm 3 - Xã Hải Phong - Hải Hậu - Nam Định </li>
 						<li>Điện thoại: 0123456789 - Hotline:  0123456789</li>
-						<li>Email:  htshop@gmail.com</li>
+						<li>Email:  ttshop@gmail.com</li>
 					</ul>
 				</div><!-- End .noidung -->
 				<div id="thanhngang">
