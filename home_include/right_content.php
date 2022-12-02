@@ -92,9 +92,5 @@
 					
 					</div><!-- End .center1-->
 				</div><!-- End .timkiem-->
-<<<<<<< HEAD
-
-=======
->>>>>>> dc5f77a8d163f1fb320139419f401ed08df707f9
 
 
