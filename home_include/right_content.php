@@ -92,24 +92,6 @@
 					
 					</div><!-- End .center1-->
 				</div><!-- End .timkiem-->
-				
-				
-				<div id="fb-root">
-					<div class="center1">
-						<div id="fb-root"></div>
-						<script>(function(d, s, id) {
-						  var js, fjs = d.getElementsByTagName(s)[0];
-						  if (d.getElementById(id)) return;
-						  js = d.createElement(s); js.id = id;
-						  //js.src = "//connect.facebook.net/vi_VN/all.js#xfbml=1";
-						  js.src = "//connect.facebook.net/vi_VN/all.js#xfbml=2";
-						  //js.src = "https://www.facebook.com/ngoctamPreO18/";
-						  fjs.parentNode.insertBefore(js, fjs);
-						}(document, 'script', 'facebook-jssdk'));</script>
-						<div class="fb-like-box" data-href="https://www.facebook.com/HTShop-110020328165646" data-width="188" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="false"></div>
-					</div><!-- End .center1 -->
-				</div><!-- End .facebook -->
-
 
 
 

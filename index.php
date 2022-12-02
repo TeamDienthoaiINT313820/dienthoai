@@ -228,7 +228,7 @@ e.preventDefault();
 						
 						<li>Địa chỉ: Xóm 3 - Xã Hải Phong - Hải Hậu - Nam Định </li>
 						<li>Điện thoại: 0123456789 - Hotline:  0123456789</li>
-						<li>Email:  htshop@gmail.com</li>
+						<li>Email:  ttshop@gmail.com</li>
 					</ul>
 				</div><!-- End .noidung -->
 				<div id="thanhngang">
