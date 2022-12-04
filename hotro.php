@@ -64,7 +64,7 @@
 			frm.noidung.focus();
 			return false;
 		}
-		if (frm.noidung.value.length < 5) {
+		if (frm.noidung.value.length <= 5) {
 			alert("Nội dung phải nhiều hơn 5 ký tự");
 			frm.noidung.focus();
 			return false;
