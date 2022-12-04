@@ -15,7 +15,7 @@ if(isset($_POST['btnthem']))
 {
 	$tendm=$_POST['tendm'];
 	$dequi=$_POST['dequi'];
-	$insertdm = mysqli_query($connect,"INSERT INTO danhmuc VALUES('', '$tendm', '$dequi') ");
+	$insertdm = mysqli_query($connect,"INSERT INTO danhmuc(tendm, dequi) VALUES('$tendm', '$dequi') ");
 	if($insertdm) {
 		
 		echo "<p align = center>Thêm danh muc <font color='red'><b> $tendm </b></font> thành công!</p>";
