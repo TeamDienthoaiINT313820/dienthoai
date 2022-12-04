@@ -124,7 +124,7 @@ INSERT INTO `hoadon` (`mahd`, `idnd`, `hoten`, `diachi`, `dienthoai`, `email`, `
 (19, 4, 'Trịnh Ngọc Khoa', 'Xóm Trại Lộc An - TP.Nam Định', 367970485, 'fslolym@gmail.com', '2022-10-03', 2),
 (20, 0, 'Trần Trung Hiếu', 'Mỹ Đình 2', 849020102, 'trunghieuuet@gmail.com', '2022-10-05', 2),
 (21, 6, 'Test User', 'Ha Noi', 987654321, 'test@gmail.com', '2022-12-04', 2),
-(22, 4, 'Ngọc Tâm', 'Hải Phong - Hải Hậu', 367970485, '19020084@vnu.edu.vn', '2022-12-04', 2),
+(22, 4, 'Ngọc Tâm', 'Hải Phong - Hải Hậu', 367970486, '19020084@vnu.edu.vn', '2022-12-04', 2),
 (23, 4, 'Ngọc Tâm', 'Hải Phong - Hải Hậu', 367970485, '19020084@vnu.edu.vn', '2022-12-04', 1),
 (24, 8, 'Trần Trung Hiếu', 'Mỹ Đình 2', 123546789, 'trunghieuuet@gmail.com', '2022-12-04', 1);
 
