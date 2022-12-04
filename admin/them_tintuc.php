@@ -30,7 +30,7 @@
 		$file__name__=$dmyhis.$file_name;
 		move_uploaded_file($file_tmp,$upload_image.$file__name__);
 		
-		$insert="INSERT INTO tintuc VALUES('','$tieude', '$ndngan', '$noidung', '$file__name__', '$ngay', '$tacgia','1')";
+		$insert="INSERT INTO tintuc(tieude,ndngan,noidung,hinhanh,ngaydangtin,tacgia,trangthai) VALUES('$tieude', '$ndngan', '$noidung', '$file__name__', '$ngay', '$tacgia','1')";
 		$query=mysqli_query($connect,$insert);
 		if($query) {
 			echo "Thêm tin tức hành công";		

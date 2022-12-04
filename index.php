@@ -212,7 +212,7 @@ e.preventDefault();
 				<li><a href="index.php?content=gioithieu">GIỚI THIỆU</a></li>
 				<li><a href="index.php?content=sanpham">SẢN PHẨM</a>
 				<li><a href="index.php?content=phukien">PHỤ KIỆN</a></li>
-				<li><a href="index.php?content=khuyenmai">KHUYỂN MÃI</a></li>
+				<li><a href="index.php?content=khuyenmai">KHUYẾN MÃI</a></li>
 				<li><a href="index.php?content=tintuc">TIN TỨC</a></li>
 				<li><a href="index.php?content=hotro">HỖ TRỢ</a></li>
 			</ul>
@@ -228,7 +228,7 @@ e.preventDefault();
 						
 						<li>Địa chỉ: Xóm 3 - Xã Hải Phong - Hải Hậu - Nam Định </li>
 						<li>Điện thoại: 0123456789 - Hotline:  0123456789</li>
-						<li>Email:  ttshop@gmail.com</li>
+						<li>Email: ttshop@gmail.com</li>
 					</ul>
 				</div><!-- End .noidung -->
 				<div id="thanhngang">

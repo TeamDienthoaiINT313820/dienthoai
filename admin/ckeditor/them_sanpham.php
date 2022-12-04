@@ -33,7 +33,7 @@
 		$file__name__=$dmyhis.$file_name;
 		move_uploaded_file($file_tmp,$upload_image.$file__name__);
 		$madm=$_POST['madm'];
-		$insert="INSERT INTO sanpham VALUES('','$masp', '$ten_sanpham', '$file__name__', '$chitiet', '$soluong','$daban', '$gia','$madm', '$ngay')";
+		$insert="INSERT INTO sanpham(tensp,hinhanh,mau,chitiet,soluong,daban,gia,madm,ngaycapnhat) VALUES('$masp', '$ten_sanpham', '$file__name__', '$chitiet', '$soluong','$daban', '$gia','$madm', '$ngay')";
 		$query=mysql_query($insert);
 		if($query) {
 			echo "<p align = center>Thêm sản phẩm thành công!</p>";

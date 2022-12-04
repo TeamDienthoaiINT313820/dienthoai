@@ -36,9 +36,7 @@
 		<tr>
 			<td>Địa chỉ  </td><td class="input"><textarea name="diachi"></textarea></td>
 		</tr>
-		<tr>
-			<td>Mã xác nhận: </td><td></td>
-		</tr>
+
 		<tr>
 			<td colspan=2 class="btndangky">
 				<button type="submit" name="submit">Đăng ký</button>
